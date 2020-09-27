@@ -7,7 +7,7 @@
   },
   "content_scripts": [
 	  {
-		"matches": ["https://*.dynamics.com/*"],
+		"matches": ["https://*.dynamics.com/*", "https://linak-las-test.sandbox.operations.dynamics.com/?cmp=TST&mi=DefaultDashboard"],
 		"js": ["screenshot.js"]
 	  }
   ],
